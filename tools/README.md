@@ -41,3 +41,24 @@ If `pyserial` is missing:
 ```powershell
 python -m pip install -r requirements-dashboard.txt
 ```
+
+## Servo Configurator
+
+Run the Tkinter configurator for `include/servo_config.h`:
+
+```powershell
+python tools\servo_configurator.py
+```
+
+It edits the existing `#define` values, validates common range mistakes, and
+creates a timestamped `.bak` copy of the header every time you save.
+
+Parser/validation check without opening the GUI:
+
+```powershell
+python tools\servo_configurator.py --self-test
+```
+
+Changing `TEST_MODE` or `SERVO_CONTROL_TELEMETRY_ENABLE` in the header only
+affects builds where `platformio.ini` does not override those macros with
+`build_flags`.
