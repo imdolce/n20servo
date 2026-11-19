@@ -221,9 +221,13 @@
 #define CONTROL_HOLD_BRAKE_ENABLED 1U
 #endif
 
-/* GPIO PWM frequency for the two H-bridge input pins. */
+/* GPIO PWM frequency for the two H-bridge input pins.
+ *
+ * Note: For small brushed DC motors + RZ7888, too-high PWM can reduce effective
+ * torque. 500 Hz is a good starting point.
+ */
 #ifndef MOTOR_PWM_HZ
-#define MOTOR_PWM_HZ 2000U
+#define MOTOR_PWM_HZ 500U
 #endif
 
 /* Timer tick rate used to generate the GPIO PWM waveform. */

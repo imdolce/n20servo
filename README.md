@@ -138,8 +138,6 @@
 
 <h2 id="pcb-and-hardware-revisions">4. PCB & Hardware Revisions</h2>
 
-> [!TIP]
-> You can view & get the PCB schematic and designs in this repository, or visit my post on OSHWLAB (coming soon).
 
 > [!IMPORTANT]
 > It is not recommended to order PCB of the initial version <code>1D2 (1Д2)</code>, as it requires good soldering skill to install components on both sides and wiring up the angle detector with bodge wires. The <code>1D3 (1Д3)</code> version aims to resolve both issues. More details will be added as soon as I can get my hands on the new <code>1Д3</code> PCB. 
@@ -185,34 +183,13 @@
 </table>
 
 <h3> 2. Second version  <code>1D3 (1Д3)</code></h3>
+
+> [!IMPORTANT]
+> This will be moved to a new repository soon.
+
 <p> In this new version, it aims to resolve the difficulty of populating the PCB and wiring the angle detector. Currently I have not tested the design myself, so documentation is limited. There are 5 different PCB designs, <code>1Д3-1/2/3/4</code> incorporates 4 different designs of 4 different motor drivers, it was made to avoid ordering multiple PCB revisions. The remaining 4 designs <code>1Д3-1</code>, <code>1Д3-2</code>, <code>1Д3-3</code>, <code>1Д3-4</code> are standalone boards, using the <code>SA8301</code>, <code>RZ7888</code>, <code>DRV8210DRLR</code>, <code>DRV8837DSGR</code> respectively to each design.</p> 
 
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; border-color: #ddd;">
-  <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th align="left" style="width: 25%;">View</th>
-      <th align="center" style="width: 45%;">Image</th>
-      <th align="left" style="width: 30%;">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>PCB View</strong></td>
-      <td align="center"><img src="images/placeholder.jpg" alt="PCB View" width="500" style="border-radius: 4px;"/></td>
-      <td>Coming soon.</td>
-    </tr>
-    <tr>
-      <td><strong>Top populated view</strong></td>
-      <td align="center"><img src="images/placeholder.jpg" alt="Top Populated PCB" width="500" style="border-radius: 4px;"/></td>
-      <td>Coming soon.</td>
-    </tr>
-    <tr>
-      <td><strong>Bottom populated view</strong></td>
-      <td align="center"><img src="images/placeholder.jpg" alt="Bottom Populated PCB" width="500" style="border-radius: 4px;"/></td>
-      <td>Coming soon.</td>
-    </tr>
-  </tbody>
-</table>
+
 
 <hr />
 

@@ -5,3 +5,6 @@
 .vscode/ipch
 compile_commands.json
 tools/__pycache__
+.vscode
+test
+
